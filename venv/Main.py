@@ -9,10 +9,10 @@ while True:
     qnt = Invoice().inputNumber("Please enter quantity of product: ")
     discount = Invoice().inputNumber("Discount percent(%): ")
     repeat = Invoice().inputAnswer("Another product> (y/n): ")
-    result = Invoice().addProduct(qnt,unit_price,discount)
+    result = Invoice().addProduct(qnt, unit_price, discount)
     products[product] = result
     if repeat == "n":
         break
 total_amount = Invoice().totalPurePrice(products)
 
-print("Your total pure price is: ", total_amount)
+print("Your total pure price is: ", total_amount)   
