@@ -15,4 +15,4 @@ while True:
         break
 total_amount = Invoice().totalPurePrice(products)
 
-print("Your total pure price is: ", total_amount)   
+print("Your total pure price is: ", total_amount)
